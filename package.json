@@ -6,7 +6,7 @@
   },
   "theme": "syntax",
   "main": "./lib/main.coffee",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "Dark version of minimal-syntax",
   "keywords": [
     "syntax",
@@ -29,10 +29,36 @@
     "mysql",
     "markdown"
   ],
-  "repository": "https://github.com/burodepeper/minimal-syntax-dark",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burodepeper/minimal-syntax-dark.git"
+  },
   "private": true,
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
+  },
+  "readme": "# Minimal (dark)\n\nA _work-in-progress_ attempt at creating a dark version for [minimal-syntax](https://github.com/burodepeper/minimal-syntax). Use with caution ;)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/burodepeper/minimal-syntax-dark/issues"
+  },
+  "homepage": "https://github.com/burodepeper/minimal-syntax-dark#readme",
+  "_id": "minimal-syntax-dark@0.1.4",
+  "_shasum": "b926abe7a122220cceef1ff40d878932508b852e",
+  "_resolved": "file:../d-115108-34619-1ogzkr4/package.tgz",
+  "_from": "../d-115108-34619-1ogzkr4/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/main.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
   }
 }
